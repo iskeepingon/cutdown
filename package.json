@@ -1,0 +1,23 @@
+{
+  "name": "cutdown",
+  "version": "1.0.0",
+  "description": "倒计时",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iskeepingon/cutdown.git"
+  },
+  "keywords": [
+    "倒计时",
+    "cutdown"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iskeepingon/cutdown/issues"
+  },
+  "homepage": "https://github.com/iskeepingon/cutdown#readme"
+}
