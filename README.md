@@ -24,6 +24,8 @@ export default {
         return
       }
       cutdown({
+        count: 5,
+        gap: 1000,
         onStart: (count) => {
           this.cutdowned = true
           this.isCutdowning = true
