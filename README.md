@@ -18,6 +18,9 @@ export default {
       isCutdowning: false//是否正在倒计时
     }
   },
+  beforeDestroy() {
+    clearInterval(this.cutdownTimer)
+  },
   methods: {
     getCode() {
       if (this.isCutdowning) {
