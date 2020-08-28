@@ -1,6 +1,6 @@
 ## 用法
 
-## Vue中使用
+### Vue中使用
 
 ```
 <a href="javascript:void(0)" @click="getCode">
@@ -47,6 +47,6 @@ export default {
 }
 ```
 
-## React中使用
+### React中使用
 
 同理
