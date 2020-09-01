@@ -1,3 +1,9 @@
+## 安装
+
+```
+npm install cutdown
+```
+
 ## 用法
 
 ### 语法
