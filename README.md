@@ -1,5 +1,25 @@
 ## 用法
 
+### 语法
+
+```
+cutdown(option)
+```
+
+### 参数
+
+| 参数 | 描述 |
+| :-----| :---- |
+| option.count | 倒计时的总次数 |
+| option.gap | 倒计时的时间间隔，单位是ms |
+| option.onStart | 倒计时开始的回调，该回调有参数count |
+| option.onGoing | 倒计时进行中的回调，该回调有参数count，timer |
+| option.onFinish | 倒计时结束时的回调 |
+
+### 返回
+
+没有返回
+
 ### Vue中使用
 
 ```
